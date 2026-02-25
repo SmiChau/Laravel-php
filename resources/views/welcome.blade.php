@@ -110,7 +110,7 @@
                             </span>
                         </li>
                     </ul>
-                    @yield('name')
+                    
                     <ul class="flex gap-3 text-sm leading-normal">
                         <li>
                             <a href="https://cloud.laravel.com" target="_blank" class="inline-block dark:bg-[#eeeeec] dark:border-[#eeeeec] dark:text-[#1C1C1A] dark:hover:bg-white dark:hover:border-white hover:bg-black hover:border-black px-5 py-1.5 bg-[#1b1b18] rounded-sm border border-black text-white text-sm leading-normal">
@@ -118,6 +118,7 @@
                             </a>
                         </li>
                     </ul>
+                    <h1>Hello, {{ $name }}</h1>
                 </div>
                 <div class="bg-[#fff2f2] dark:bg-[#1D0002] relative lg:-ml-px -mb-px lg:mb-0 rounded-t-lg lg:rounded-t-none lg:rounded-r-lg aspect-[335/376] lg:aspect-auto w-full lg:w-[438px] shrink-0 overflow-hidden">
                     {{-- Laravel Logo --}}
@@ -267,6 +268,7 @@
                         </g>
                     </svg>
                     <div class="absolute inset-0 rounded-t-lg lg:rounded-t-none lg:rounded-r-lg shadow-[inset_0px_0px_0px_1px_rgba(26,26,0,0.16)] dark:shadow-[inset_0px_0px_0px_1px_#fffaed2d]"></div>
+                    
                 </div>
             </main>
         </div>

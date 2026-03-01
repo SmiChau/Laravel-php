@@ -3,6 +3,7 @@
 namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
+use Illuminate\Foundation\Console\ServeCommand;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -19,6 +20,11 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        //
+            if ($this->app->runningInConsole()) {
+            // Add Windows mixed-case variables to the whitelist
+            ServeCommand::$passthroughVariables[] = 'SystemRoot';
+            ServeCommand::$passthroughVariables[] = 'Path';
+            ServeCommand::$passthroughVariables[] = 'windir';
+        }
     }
 }

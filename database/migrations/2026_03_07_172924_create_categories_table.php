@@ -15,6 +15,7 @@ return new class extends Migration
             $table->id('category_id');
             $table->string('category_name', 255);
             $table->date("verified_at")->nullable();
+            $table->string('verified_by', 255)->nullable();
             $table->timestamps();
         });
     }

@@ -6,8 +6,8 @@
     <title>Document</title>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
-<body>
-    <h1 class="text-center text-3xl text-red-600">Hello World. This is Home Page</h1>
+<body class="bg-gray-100 h-screen flex items-center justify-center">
+    <h1 class="text-3xl text-red-600">Hello World. This is Home Page</h1>
 
 </body>
 </html>

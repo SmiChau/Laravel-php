@@ -4,7 +4,13 @@ use App\Http\Controllers\TestController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('home');
-});
+    return view('registration');
+})->name('register.view');
 
-Route::get('/test',[TestController::class,'index']);
+Route::post('/register', function () {
+    // Logic for registration
+})->name('register');
+
+Route::get('/login', function () {
+    return view('login');
+})->name('login');

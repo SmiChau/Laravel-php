@@ -77,7 +77,9 @@
                 </div>
             </div>
 
-            <form class="p-8 space-y-6" action="{{ route('register') }}" method="POST">
+            <form class="p-8 space-y-6" action="/addUser" method="POST">
+            {{-- <form class="p-8 space-y-6" action="{{ route('register') }}" method="POST"> --}}
+   
                 @csrf
 
                 <div class="space-y-5">

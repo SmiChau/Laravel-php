@@ -225,7 +225,7 @@
 
                 <!-- Submit Button - Enhanced -->
                 <div class="pt-4">
-                    <button type="submit" 
+                    <button type="submit" value="Registration" name="user_reg"
                             class="group relative w-full bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600 
                                    text-white font-black py-4 px-6 rounded-2xl 
                                    shadow-xl shadow-indigo-500/30 hover:shadow-2xl hover:shadow-indigo-500/40 

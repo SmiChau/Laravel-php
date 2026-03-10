@@ -10,6 +10,11 @@ use Illuminate\Support\Facades\Hash;
 
 class UserController extends Controller
 {
+    public function viewLogin(){
+
+        return view('login');
+    }
+
     public function viewReg()
     {
         return view('registration');

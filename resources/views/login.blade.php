@@ -70,7 +70,7 @@
                 </button>
                 <div class="mt-6 flex items-center space-x-2 text-sm text-gray-400">
                     <span>New here?</span>
-                    <a href="{{ route('register.view') }}" class="text-indigo-600 font-black hover:underline uppercase tracking-tighter">Register Account</a>
+                    <a href="{{ route('register.view') }}" class="text-indigo-800 font-black hover:underline uppercase tracking-tighter">Register Account</a>
                 </div>
             </div>
         </form>

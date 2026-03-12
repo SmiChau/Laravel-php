@@ -61,7 +61,7 @@
 
             <div class="flex items-center space-x-3 pt-2">
                 <input id="remember" name="remember" type="checkbox" class="h-5 w-5 text-indigo-600 rounded-md border-gray-300 focus:ring-indigo-500 cursor-pointer">
-                <label for="remember" class="text-sm text-gray-500 cursor-pointer font-medium hover:text-gray-700 transition-colors">Stay logged in for a month</label>
+                <label for="remember" class="text-sm text-gray-700 cursor-pointer font-medium hover:text-gray-700 transition-colors">Stay logged in for a month</label>
             </div>
 
             <div class="pt-4 flex flex-col items-center">

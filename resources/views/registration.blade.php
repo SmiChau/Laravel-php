@@ -247,7 +247,7 @@
                         <div class="w-full border-t border-gray-200"></div>
                     </div>
                     <div class="relative flex justify-center text-sm">
-                        <span class="px-4 bg-gradient-to-r from-blue-50 to-white text-gray-500">Or continue with</span>
+                        <span class="px-4 bg-gradient-to-r from-pink-50 to-white text-gray-500">Or continue with</span>
                     </div>
                 </div>
 
